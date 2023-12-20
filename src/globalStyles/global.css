@@ -1,7 +1,8 @@
 :root {
   font-family: quivira, "Times New Roman", Times, serif, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  --fontFamily_historic: historic;
-  --fontFamily_sometimes: sometimes;
+  --fontFamily-historic: historic;
+  --fontFamily-sometimes: sometimes;
+  --fontFamily-quivira: quivira;
   --fontSize_title: 3rem;
   --fontWeight_100: 100;
   --fontWeight_200: 200;
@@ -13,19 +14,19 @@
 
 @font-face {
   font-family: "quivira";
-  src: url("/public/fonts/quivira.regular.otf") format("opentype");
+  src: url("/fonts/quivira.regular.otf") format("opentype");
 }
 @font-face {
   font-family: "happy";
-  src: url("/public/fonts/happy-times-at-the-ikob.regular.otf") format("opentype");
+  src: url("/fonts/happy-times-at-the-ikob.regular.otf") format("opentype");
 }
 @font-face {
   font-family: "historic";
-  src: url("/public/fonts/historic-times.regular.otf") format("opentype");
+  src: url("/fonts/historic-times.regular.otf") format("opentype");
 }
 @font-face {
   font-family: "sometimes";
-  src: url("/public/fonts/sometimes.regular.otf") format(opentype);
+  src: url("/fonts/sometimes.regular.otf") format("opentype");
 }
 *,
 *::before,
