@@ -1,0 +1,27 @@
+.canvas {
+  position: relative;
+  height: 70%;
+  width: 80%;
+  background-image: url("../../assets/everest.jpg");
+  background-position: top -60px left 0px;
+  background-size: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 20px;
+  display: grid;
+  place-items: center;
+  font-family: var(--fontFamily_historic);
+  font-size: 5.5rem;
+  font-weight: 100;
+  color: var(--title_color);
+  letter-spacing: 70px;
+}
+.canvas:before {
+  content: "";
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  background-image: linear-gradient(in oklab, #808080, transparent);
+  border-radius: 50%;
+  background-color: white;
+  opacity: 0.2;
+  outline: 1.5px solid rgb(255, 255, 255);
+}/*# sourceMappingURL=Canvas.module.css.map */

@@ -1,0 +1,59 @@
+:root {
+  font-family: quivira, "Times New Roman", Times, serif, system-ui, Avenir,
+    Helvetica, Arial, sans-serif;
+
+  // FONT--FAMILIES
+  --fontFamily_historic: historic;
+  --fontFamily_sometimes: sometimes;
+
+  // FONT--SIZES
+  --fontSize_title: 3rem;
+
+  // FONT--WEIGHTS
+  --fontWeight_100: 100;
+  --fontWeight_200: 200;
+  --fontWeight_300: 300;
+
+  // FONT--COLORS
+  --title_color: rgb(241, 241, 241);
+  --links_color: grey;
+
+  // LETTER--SPACING
+  --letter_spacing_10: 20px;
+}
+
+@font-face {
+  font-family: "quivira";
+  src: url("/public/fonts/quivira.regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "happy";
+  src: url("/public/fonts/happy-times-at-the-ikob.regular.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: "historic";
+  src: url("/public/fonts/historic-times.regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "sometimes";
+  src: url("/public/fonts/sometimes.regular.otf") format(opentype);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-image: url("../assets/everest.jpg");
+  background-size: 100%;
+}
