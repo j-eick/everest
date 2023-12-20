@@ -1,0 +1,25 @@
+.textbox {
+  height: 100%;
+  width: 100%;
+  background: red;
+}
+
+.divider {
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  // transform: translateY(-50%);
+  transform: translateX(-35%);
+}
+
+.subtitle {
+  position: absolute;
+  top: 62%;
+  transform: translateY(-50%);
+  left: 50%;
+  transform: translateX(-50%);
+
+  color: white;
+  font-size: 0.75rem;
+  letter-spacing: 20px;
+}

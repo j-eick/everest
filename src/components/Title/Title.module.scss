@@ -1,10 +1,17 @@
 .h1 {
   position: absolute;
-  z-index: 60;
+  top: 43%;
+  left: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+
+  margin-left: 10px;
+
+  // background-color: grey;
   font-family: var(--fontFamily_sometimes);
-  color: rgba($color: #efefef, $alpha: 1);
+  color: rgba($color: #ffffff, $alpha: 1);
   font-size: 3.5rem;
+  font-weight: 200;
   padding-left: 40px;
-  font-weight: 100;
-  letter-spacing: 60px;
+  letter-spacing: 65px;
 }
