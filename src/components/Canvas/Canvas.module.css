@@ -13,21 +13,18 @@
 
 .ring {
   position: absolute;
+  width: 400px;
+  height: 400px;
   position: relative;
-  z-index: 50;
-  width: 350px;
-  height: 350px;
-  background-color: transparent;
+  background-size: cover;
   border-radius: 50%;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.5); /* Shadow for transparency effect */
 }
 .ring::before {
   content: "";
   position: absolute;
-  width: 650px;
-  height: 650px;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border: 140px solid rgba(20, 70, 127, 0.058);
+  translate: translatey();
+  border: 2px solid white;
   border-radius: 50%;
 }/*# sourceMappingURL=Canvas.module.css.map */

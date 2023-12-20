@@ -29,26 +29,39 @@
 
 .ring {
   position: absolute;
+  width: 400px;
+  height: 400px;
   position: relative;
-  z-index: 50;
-
-  width: 350px;
-  height: 350px;
-  // border: 10px solid rgba(113, 153, 198, 0.15);
-  background-color: transparent;
-
+  background-size: cover;
   border-radius: 50%;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.5); /* Shadow for transparency effect */
 
   &::before {
     content: "";
     position: absolute;
-
-    width: 650px;
-    height: 650px;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 140px solid rgba(20, 70, 127, 0.058);
+
+    translate: translatey();
+    // top: 50px;
+    // left: 50px;
+    // width: calc(100% - 100px);
+    // height: calc(100% - 100px);
+    border: 2px solid white;
     border-radius: 50%;
   }
+
+  // &::after {
+  //   content: "";
+  //   position: absolute;
+  //   top: 20px; /* Adjust as needed for the outer border thickness */
+  //   left: 20px; /* Adjust as needed for the outer border thickness */
+  //   width: calc(
+  //     100% - 40px
+  //   ); /* Adjust as needed for the outer border thickness */
+  //   height: calc(
+  //     100% - 40px
+  //   ); /* Adjust as needed for the outer border thickness */
+  //   border: 2px solid white; /* Outer border color */
+  //   border-radius: 50%;
+  // }
 }
