@@ -1,8 +1,12 @@
 :root {
   font-family: "Cormorant Garamond", "Times New Roman", Times, serif, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --fontFamily-cormorant: "Cormorant Garamond";
   --fontFamily-historic: historic;
   --fontFamily-sometimes: sometimes;
   --fontFamily-quivira: quivira;
+  --fontFamily-diphylleia: "Diphylleia", serif;
+  --fontFamily-condiment: "Condiment", cursive;
+  --fontFamily-grechen: "Grechen Fuemen", cursive;
   --fontSize_title: 3rem;
   --fontWeight_100: 100;
   --fontWeight_200: 200;
@@ -39,9 +43,14 @@
 html,
 body {
   height: 100%;
+  font-family: var(--fontFamily-cormorant);
 }
 
 body {
   background-image: url("../assets/everest-contrast.jpg");
   background-size: 100%;
+}
+
+li {
+  list-style: none;
 }/*# sourceMappingURL=global.css.map */

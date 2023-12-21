@@ -1,14 +1,16 @@
-.h1 {
-  position: absolute;
-  top: 43%;
-  left: 50%;
-  transform: translateY(-50%);
-  transform: translateX(-50%);
-  margin-left: 10px;
-  font-family: var(--fontFamily_sometimes);
-  color: white;
-  font-size: 3.5rem;
-  font-weight: 200;
-  padding-left: 40px;
-  letter-spacing: 65px;
+@media (min-width: 1300px) {
+  .h1 {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    margin-left: 10px;
+    font-family: var(--fontFamily_sometimes);
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 200;
+    padding-left: 40px;
+    letter-spacing: 65px;
+  }
 }/*# sourceMappingURL=Title.module.css.map */

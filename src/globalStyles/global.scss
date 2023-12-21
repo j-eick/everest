@@ -3,9 +3,13 @@
     Avenir, Helvetica, Arial, sans-serif;
 
   // FONT--FAMILIES
+  --fontFamily-cormorant: "Cormorant Garamond";
   --fontFamily-historic: historic;
   --fontFamily-sometimes: sometimes;
   --fontFamily-quivira: quivira;
+  --fontFamily-diphylleia: "Diphylleia", serif;
+  --fontFamily-condiment: "Condiment", cursive;
+  --fontFamily-grechen: "Grechen Fuemen", cursive;
 
   // FONT--SIZES
   --fontSize_title: 3rem;
@@ -51,9 +55,14 @@
 html,
 body {
   height: 100%;
+  font-family: var(--fontFamily-cormorant);
 }
 
 body {
   background-image: url("../assets/everest-contrast.jpg");
   background-size: 100%;
+}
+
+li {
+  list-style: none;
 }
