@@ -58,7 +58,7 @@ function App() {
           </TextBox>
         </Canvas>
       ) : (
-        <Limbus />
+        <Limbus windowsSize={windowWidth} />
       )}
     </Layout>
   );
