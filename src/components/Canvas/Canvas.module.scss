@@ -1,7 +1,7 @@
 @media (min-width: 1300px) {
   .canvas {
     position: relative;
-    height: 70%;
+    height: clamp(750px, 70%, 850px);
     width: clamp(768px, 80%, 1570px);
 
     background-image: url("../../assets/everest_2.jpg");
