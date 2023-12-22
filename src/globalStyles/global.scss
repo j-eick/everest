@@ -10,9 +10,13 @@
   --fontFamily-diphylleia: "Diphylleia", serif;
   --fontFamily-condiment: "Condiment", cursive;
   --fontFamily-grechen: "Grechen Fuemen", cursive;
+  --fontFamily-early: early;
+
+  --fontFamily-nav: var(--fontFamily-early);
 
   // FONT--SIZES
   --fontSize_title: 3rem;
+  --fontSize-nav: 1.25rem;
 
   // FONT--WEIGHTS
   --fontWeight_100: 100;
@@ -21,6 +25,7 @@
 
   // FONT--COLORS
   --title_color: rgb(241, 241, 241);
+  --fontNav-color: rgb(210, 210, 210);
   --links_color: grey;
 
   // LETTER--SPACING
@@ -42,6 +47,10 @@
 @font-face {
   font-family: "sometimes";
   src: url("/fonts/sometimes.regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "early";
+  src: url("/fonts/early-times.demo.otf") format("opentype");
 }
 
 *,
