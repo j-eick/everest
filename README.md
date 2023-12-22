@@ -1,30 +1,30 @@
-# React + TypeScript + Vite
+## Mount Everest
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+built with:
 
-Currently, two official plugins are available:
+- Vite, React, SCSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Highest Point on Earth**
 
-## Expanding the ESLint configuration
+> Mount Everest is the highest point on Earth, with its summit
+> reaching an elevation of 29,032 feet (8,848 meters) above sea level.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+**Named After Sir George Everest**
 
-- Configure the top-level `parserOptions` property like this:
+> The mountain was named after Sir George Everest, a British
+> surveyor general of India during the 19th century. Interestingly, Everest himself objected to the idea of naming the peak after him.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+**Growth in Height**
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+> Mount Everest is still growing at a rate of about 0.04 inches  
+>  (1. 2 millimeters) per year due to the collision of the Indian and Eurasian tectonic plates.
+
+**Harsh Weather Conditions**
+
+> The summit of Mount Everest experiences extreme weather  
+>  conditions with temperatures dropping as low as -76°F (-60°C) during winter. The high-altitude environment also poses significant challenges, with low oxygen levels and high winds.
+
+**First Successful Ascent**
+
+> Sir Edmund Hillary from New Zealand and Tenzing Norgay, a Sherpa
+> of Nepal, were the first climbers to successfully reach the summit of Mount Everest on May 29, 1953, as part of a British expedition led by Colonel John Hunt.
