@@ -5,19 +5,23 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.tsx";
 import Limbus from "./pages/Limbus.tsx";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-  },
-  {
-    path: "/limbus",
-    element: <Limbus />,
-  },
-]);
+// const router = createBrowserRouter([
+//   {
+//     path: "/home",
+//     element: <App />,
+//   },
+//   {
+//     path: "/limbus",
+//     element: <Limbus />,
+//   },
+//   {
+//     path: "/limbus",
+//     element: <Limbus />,
+//   },
+// ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <App />
   </React.StrictMode>
 );

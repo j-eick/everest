@@ -6,6 +6,8 @@ import Title from "./components/Title/Title";
 import styles from "./components/TextBox/TextBox.module.scss";
 import TextBox from "./components/TextBox/TextBox";
 import { useEffect, useState } from "react";
+import Nav from "./components/Navigation/Nav";
+import { BrowserRouter, Router, Route } from "react-router-dom";
 
 type windowProps = {
   width: number;
@@ -13,14 +15,14 @@ type windowProps = {
 };
 
 function App() {
-  const [windowWidth, setWindowWidth] = useState<windowProps>({
+  const [windowSize, setWindowSize] = useState<windowProps>({
     width: window.innerWidth,
     height: window.innerHeight,
   });
 
   useEffect(() => {
     const handleListener = () => {
-      setWindowWidth({
+      setWindowSize({
         width: window.innerWidth,
         height: window.innerHeight,
       });
@@ -32,12 +34,13 @@ function App() {
     };
   }, []);
 
-  console.log(windowWidth);
+  console.log(windowSize);
 
   return (
     <Layout>
-      {windowWidth.width >= 1300 && windowWidth.height >= 750 ? (
+      {windowSize.width >= 1300 && windowSize.height >= 750 ? (
         <Canvas>
+          <Nav />
           <div className={canvasStyle.ring} />
           <TextBox>
             <Title />
@@ -58,7 +61,7 @@ function App() {
           </TextBox>
         </Canvas>
       ) : (
-        <Limbus windowsSize={windowWidth} />
+        <Limbus windowSize={windowSize} />
       )}
     </Layout>
   );

@@ -1,9 +1,7 @@
 import Layout from "../components/Layout";
 
-export default function Limbus({ windowsSize }) {
-  const renderResolution = () => {
-    return `${windowsSize.width} px * ${windowsSize.height} px`;
-  };
+export default function Limbus({ windowSize }) {
+  console.log(windowSize);
 
   return (
     <Layout>
@@ -41,7 +39,7 @@ export default function Limbus({ windowsSize }) {
         <p style={{ paddingBottom: "2rem", textDecoration: "underline" }}>
           Your current resolution:
         </p>
-        {renderResolution()}
+        {`${windowSize.width} px * ${windowSize.height} px`}
       </div>
     </Layout>
   );
