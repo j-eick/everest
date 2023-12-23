@@ -1,0 +1,42 @@
+.ul {
+  position: absolute;
+  z-index: 60;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 50px;
+  font-family: var(--fontFamily-nav);
+  font-size: var(--fontSize-nav);
+  color: var(--fontNav-color);
+}
+
+.li {
+  padding: 0.5rem;
+}
+
+.a {
+  position: relative;
+  color: #ccdff7;
+  text-decoration: none;
+}
+.a .line {
+  position: absolute;
+  width: 0%;
+  left: -10%;
+  background-color: #6c92c4;
+  display: block;
+  height: 1px;
+  opacity: 0.2;
+  transition: 0.5s;
+}
+.a:hover {
+  color: #6c92c4;
+}
+.a:hover .line {
+  width: 120%;
+  opacity: 1;
+}
+.a:active {
+  color: #a5c2e4;
+}/*# sourceMappingURL=Nav.module.css.map */
