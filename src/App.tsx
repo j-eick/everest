@@ -7,7 +7,6 @@ import styles from "./components/TextBox/TextBox.module.scss";
 import TextBox from "./components/TextBox/TextBox";
 import { useEffect, useState } from "react";
 import Nav from "./components/Navigation/Nav";
-import { BrowserRouter, Router, Route } from "react-router-dom";
 
 type windowProps = {
   width: number;

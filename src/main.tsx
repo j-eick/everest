@@ -1,27 +1,23 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "../src/globalStyles/global.scss";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import App from "./App.tsx";
 import Limbus from "./pages/Limbus.tsx";
-
-// const router = createBrowserRouter([
-//   {
-//     path: "/home",
-//     element: <App />,
-//   },
-//   {
-//     path: "/limbus",
-//     element: <Limbus />,
-//   },
-//   {
-//     path: "/limbus",
-//     element: <Limbus />,
-//   },
-// ]);
+import Nowhere from "./pages/Nowhere.tsx";
+import Travel from "./pages/Travel.tsx";
+import Contact from "./pages/Contact.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/travel" element={<Travel />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/limbus" element={<Limbus />} />
+        <Route path="/*" element={<Nowhere />} />
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
