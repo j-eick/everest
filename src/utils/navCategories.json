@@ -1,11 +1,17 @@
 [
   {
-    "name": "Home"
+    "id": "1",
+    "name": "Home",
+    "url": "/"
   },
   {
-    "name": "Travel"
+    "id": "2",
+    "name": "Travel",
+    "url": "/travel"
   },
   {
-    "name": "Contact"
+    "id": "3",
+    "name": "Contact",
+    "url": "/contact"
   }
 ]
