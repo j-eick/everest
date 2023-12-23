@@ -12,6 +12,7 @@
   .ring {
     position: absolute;
     position: relative;
+    z-index: 50;
     width: 850px;
     height: 850px;
     top: 50%;
